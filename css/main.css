@@ -55,7 +55,7 @@ body {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
-  font-family: helvetica, arial, sans;
+  font-family: 'Open Sans', helvetica, arial, sans;
 }
 .content-container {
   display: flex;
@@ -63,6 +63,11 @@ body {
   padding-top: 10vh;
   width: 100%;
 }
+h1,h2,h3,h4,h5,h6 {
+  font-family: 'Raleway', helvetica, sans;
+  font-weight: 300;
+}
+
 h1 {
   font-size: 7vw;
   margin-top: 0;
@@ -365,7 +370,7 @@ h4 {
   height: 40vh;
 }
 
-/* SOCIAL STYLES */
+/* SOCIAL LINKS */
 .social-list {
   list-style: none;
   padding: 0;
@@ -378,15 +383,16 @@ h4 {
   color: #fff;
   display: inline-block;
   font-family: helvetica, arial, sans;
+  font-size: 1.7em;
   font-size: 1rem;
   font-weight: bold;
-  height: 2.5em;
+  height: 2em;
   line-height: 1;
-  padding-top: 0.85em;
+  padding-top: .5em;
   text-align: center;
   text-decoration: none;
   vertical-align: middle;
-  width: 2.5em;
+  width: 2em;
 }
 .social-list > li {
   display: inline-block;
